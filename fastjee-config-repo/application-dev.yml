@@ -4,7 +4,7 @@
 # redis & pool (引入fastjee-nosql-redis模块后生效)
 spring:
   redis:
-    host: localhost
+    host: 10.18.100.55
     port: 6379
     password:
     database: 11
@@ -23,7 +23,7 @@ persistence:
       driver: com.mysql.jdbc.Driver
       url: jdbc:mysql://localhost:3306/${spring.application.name}?useUnicode=true&characterEncoding=utf8&useSSL=false
       username: root
-      password: root
+      password: 1qaz@WSX
     plusConfig:
       #主键类型  0:"数据库ID自增", 1:"用户输入ID",2:"全局唯一ID (数字类型唯一ID)", 3:"全局唯一ID UUID";
       idType: 0

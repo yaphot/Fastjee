@@ -11,7 +11,7 @@ spring:
       label: master
       server:
         git:
-          uri: https://gitee.com/wuwenze/Fastjee.git
+          uri: https://github.com/yaphot/Fastjee.git
           searchPaths: fastjee-config-repo
           username:
           password:
