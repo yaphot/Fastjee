@@ -13,8 +13,8 @@ spring:
         git:
           uri: https://github.com/yaphot/Fastjee.git
           searchPaths: fastjee-config-repo
-          username:
-          password:
+          username: yaphot
+          password: 1qaz@WSX
 
 # 将配置中心注册到eureka实现高可用
 eureka:
